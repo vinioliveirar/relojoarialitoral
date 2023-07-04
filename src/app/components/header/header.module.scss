@@ -1,0 +1,25 @@
+.maxWidth {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  padding-top: 30px;
+  position: relative;
+  z-index: 10;
+}
+.navList {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+  li a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    transition: color 0.2s;
+  }
+  a:hover {
+    color: #f2e097;
+  }
+}
