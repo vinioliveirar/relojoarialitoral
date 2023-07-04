@@ -7,10 +7,21 @@
   position: relative;
   z-index: 10;
 }
+
+.Nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 .navList {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  width: 50%;
+
+  li {
+    display: block;
+  }
 
   li a {
     font-family: "Roboto", sans-serif;
@@ -22,4 +33,9 @@
   a:hover {
     color: #f2e097;
   }
+}
+
+.logo {
+  color: #fff;
+  width: 50%;
 }
