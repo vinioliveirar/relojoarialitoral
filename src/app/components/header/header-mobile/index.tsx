@@ -23,20 +23,20 @@ export default function HeaderMobile() {
               transition="all 0.2s"
               bg="transparent"
             />
-            <MenuList w="90vw" p={10} marginRight={10} bg="white" borderRadius="10px">
-              <MenuItem as="a" href="#" h={50} border="none" bg="#fff" p={20} marginBottom={20}>
+            <MenuList w="90vw" p={10} marginRight={10} bg="#F8F7FA" borderRadius="10px">
+              <MenuItem as="a" href="#" h={50} border="none" p={20} marginBottom={20}>
                 Início
               </MenuItem>
 
-              <MenuItem as="a" href="#" h={50} border="none" bg="#fff" p={20} marginBottom={20}>
+              <MenuItem as="a" href="#" h={50} border="none" p={20} marginBottom={20}>
                 Serviços
               </MenuItem>
 
-              <MenuItem as="a" href="#" h={50} border="none" bg="#fff" p={20} marginBottom={20}>
+              <MenuItem as="a" href="#" h={50} border="none" p={20} marginBottom={20}>
                 Sobre
               </MenuItem>
 
-              <MenuItem as="a" href="#" h={50} border="none" bg="#fff" p={20} marginBottom={20}>
+              <MenuItem as="a" href="#" h={50} border="none" p={20} marginBottom={20}>
                 Contatos
               </MenuItem>
             </MenuList>
