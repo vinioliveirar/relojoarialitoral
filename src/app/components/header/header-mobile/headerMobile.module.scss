@@ -1,0 +1,28 @@
+.headerMobile {
+  position: relative;
+  display: flex;
+}
+
+.nav {
+  width: 100vw;
+  height: 5rem;
+  background-color: #141b29;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+
+  a {
+    text-decoration: none;
+    color: #141b29;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #141b29;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: end;
+}
