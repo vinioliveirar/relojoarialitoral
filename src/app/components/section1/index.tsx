@@ -4,7 +4,7 @@ import styles from "./section1.module.scss";
 
 export default function Section1() {
   return (
-    <section className={styles.section}>
+    <section id="servico" className={styles.section}>
       <div className={styles.maxWidth}>
         <div className={styles.container}>
           <div className={styles.content}>

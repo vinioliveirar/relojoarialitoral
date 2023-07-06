@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :focus {
@@ -23,4 +24,7 @@ button {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
+}
+:target {
+  scroll-margin-top: 0.8em;
 }

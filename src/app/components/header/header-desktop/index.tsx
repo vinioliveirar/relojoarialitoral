@@ -11,7 +11,7 @@ export default function HeaderDesktop() {
               <a href="">Início</a>
             </li>
             <li>
-              <a href="">Serviços</a>
+              <a href="#servico">Serviços</a>
             </li>
             <li>
               <a href="">Sobre</a>
