@@ -1,8 +1,9 @@
-import Banner from "./components/banner";
-import { Header } from "./components/header";
-import Section1 from "./components/section1";
 import styles from "./page.module.css";
-import Section2 from "./section2";
+import Banner from "./components/banner";
+
+import Section1 from "./components/section1";
+import Section2 from "./components/section2";
+import { Header } from "./components/header";
 
 export default function Home() {
   return (

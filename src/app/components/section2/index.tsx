@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./section2.module.scss";
 
 export default function Section2() {
@@ -11,7 +12,7 @@ export default function Section2() {
             </div>
             <div className={styles.description}>
               <span>Vendas de Relógios</span>
-              <h2>Descubra a arte do tempo</h2>
+              <h2>Seu novo relógio está aqui</h2>
               <p>
                 Encontre o relógio perfeito que reflete o seu estilo e eleva a sua experiência com o
                 tempo. Oferecemos uma seleção cuidadosamente escolhida dos mais elegantes e
