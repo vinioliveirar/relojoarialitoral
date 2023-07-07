@@ -52,6 +52,22 @@
   }
 }
 
+@media (max-width: 1224px) {
+  .content {
+    gap: 1rem;
+
+    .description {
+      max-width: 380px;
+      h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
 @media (max-width: 992px) {
   .content {
     flex-direction: column;
@@ -59,11 +75,18 @@
 
     .description {
       width: 100%;
+      gap: 0.5rem;
+
+      h2,
+      p {
+        line-height: initial;
+      }
     }
 
     .image {
       img {
         width: 100%;
+        max-width: 380px;
       }
     }
   }
