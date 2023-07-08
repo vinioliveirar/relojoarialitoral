@@ -1,15 +1,26 @@
-import styles from "./headerMobile.module.scss";
+import "./headerMobile.css";
 import logo from "../../../assets/logoPNG.png";
 import Image from "next/image";
-import { Hamburger, List, ListBullets } from "@phosphor-icons/react";
-import { IconButton, Menu, MenuButton, MenuDivider, MenuItem, MenuList } from "@chakra-ui/react";
-import Link from "next/link";
+import { ListBullets } from "@phosphor-icons/react";
+import { IconButton, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
+import { useState } from "react";
+
 export default function HeaderMobile() {
+  const [fix, setFix] = useState(false);
+
+  function setFixed() {
+    if (window.scrollY >= 292) {
+      setFix(true);
+    } else {
+      setFix(false);
+    }
+  }
+  window.addEventListener("scroll", setFixed);
   return (
-    <header className={styles.headerMobile}>
-      <div className={styles.maxWidth}>
-        <nav className={styles.nav}>
-          <div className={styles.logo}>
+    <header>
+      <div className={"maxWidth"}>
+        <nav className={fix ? "nav fixed" : "navbar"}>
+          <div className={"logo"}>
             <Image alt="logo" src={logo} width={64} height={80} />
           </div>
           <Menu>
