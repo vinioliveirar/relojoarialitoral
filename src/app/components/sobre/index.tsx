@@ -12,7 +12,7 @@ export default function Sobre() {
             <div>
               <p>
                 A Relojoaria Litoral é uma empresa referência em assistência técnica e vendas de
-                relógios. Há mais de 13 anos, estamos comprometidos em fornecer aos nossos clientes
+                relógios. Há mais de 8 anos, estamos comprometidos em fornecer aos nossos clientes
                 uma experiência excepcional no mundo da relojoaria.
               </p>
               <p>
