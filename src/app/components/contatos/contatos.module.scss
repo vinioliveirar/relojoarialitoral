@@ -2,7 +2,7 @@
   background-color: #161613;
 }
 .maxWidth {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -101,12 +101,16 @@
   }
 }
 @media (max-width: 524px) {
+  .maxWidth {
+    width: 70%;
+  }
   .content {
     h2 {
       font-size: 1rem;
     }
     p {
       font-size: 0.875rem;
+      text-decoration: none;
     }
 
     .redes {
@@ -116,7 +120,7 @@
     }
 
     .contact {
-      display: block;
+      display: flex;
     }
   }
 }
