@@ -1,9 +1,11 @@
 "use client";
 import {
+  Envelope,
   FacebookLogo,
   InstagramLogo,
   MapPin,
   MapPinLine,
+  Phone,
   WhatsappLogo,
 } from "@phosphor-icons/react";
 import styles from "./contatos.module.scss";
@@ -14,19 +16,36 @@ export default function Contatos() {
       <div className={styles.maxWidth}>
         <div className={styles.container}>
           <div className={styles.content}>
-            <div className={styles.contato}>
+            <div className={styles.contacts}>
               <h2>Contatos</h2>
+
+              <div>
+                <div className={styles.contact}>
+                  <Phone color="white" size={24} />
+                  <p>(13)3473-2675</p>
+                </div>
+
+                <div className={styles.contact}>
+                  <Phone color="white" size={24} />
+                  <p>(13) 97408-2078</p>
+                </div>
+
+                <div className={styles.contact}>
+                  <Envelope color="white" size={24} />
+                  <p>relojoarialitoral@hotmail.com</p>
+                </div>
+              </div>
             </div>
             <div className={styles.midiaSocial}>
               <h2>Redes Sociais</h2>
               <div className={styles.redes}>
-                <a href="">
+                <a href="https://www.instagram.com/relojoarialitoralpg/" target="_blank">
                   <InstagramLogo size={50} />
                 </a>
-                <a href="">
+                <a href="https://www.facebook.com/relojoarialitoral" target="_blank">
                   <FacebookLogo size={50} />
                 </a>
-                <a href="">
+                <a href="" target="_blank">
                   <WhatsappLogo size={50} />
                 </a>
               </div>
@@ -36,7 +55,11 @@ export default function Contatos() {
               <h2>Localização</h2>
               <div className={styles.address}>
                 <MapPinLine className={styles.mapIcon} color="white" weight="bold" size={24} />
-                <p>Av. ayrton senna da silva, 1511 Loja 13/14 ss/s</p>
+                <p>
+                  <a href="https://goo.gl/maps/Q44EinbSQP3YxzGz8" target="_blank">
+                    Av. ayrton senna da silva, 1511 Loja 13/14 ss/s, Praia Grande - SP
+                  </a>
+                </p>
               </div>
 
               <div className={styles.maps}>

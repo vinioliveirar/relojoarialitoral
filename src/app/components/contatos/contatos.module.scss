@@ -42,6 +42,13 @@
     text-transform: uppercase;
   }
 
+  .contact {
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
   .midiaSocial {
     .redes {
       display: flex;
@@ -61,6 +68,16 @@
       padding: 1rem 0;
       display: flex;
       gap: 0.5rem;
+
+      a {
+        color: #ffff;
+        text-decoration: none;
+        cursor: pointer;
+        transition: color 0.2s;
+      }
+      a:hover {
+        color: #f2e097;
+      }
     }
 
     .maps iframe {
@@ -96,6 +113,10 @@
       svg {
         width: 34px;
       }
+    }
+
+    .contact {
+      display: block;
     }
   }
 }

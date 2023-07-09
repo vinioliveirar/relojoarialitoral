@@ -14,10 +14,10 @@ export default function HeaderDesktop() {
               <a href="#servico">Serviços</a>
             </li>
             <li>
-              <a href="sobre">Sobre</a>
+              <a href="#sobre">Sobre</a>
             </li>
             <li>
-              <a href="contatos">Contatos</a>
+              <a href="#contatos">Contatos</a>
             </li>
           </ul>
 
