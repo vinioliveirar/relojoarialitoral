@@ -39,15 +39,15 @@ export default function HeaderMobile() {
                 Início
               </MenuItem>
 
-              <MenuItem as="a" href="#" h={50} border="none" p={20} marginBottom={20}>
+              <MenuItem as="a" href="servico" h={50} border="none" p={20} marginBottom={20}>
                 Serviços
               </MenuItem>
 
-              <MenuItem as="a" href="#" h={50} border="none" p={20} marginBottom={20}>
+              <MenuItem as="a" href="sobre" h={50} border="none" p={20} marginBottom={20}>
                 Sobre
               </MenuItem>
 
-              <MenuItem as="a" href="#" h={50} border="none" p={20} marginBottom={20}>
+              <MenuItem as="a" href="contatos" h={50} border="none" p={20} marginBottom={20}>
                 Contatos
               </MenuItem>
             </MenuList>

@@ -8,16 +8,16 @@ export default function HeaderDesktop() {
         <nav className={styles.Nav}>
           <ul className={styles.navList}>
             <li>
-              <a href="">Início</a>
+              <a href="#">Início</a>
             </li>
             <li>
               <a href="#servico">Serviços</a>
             </li>
             <li>
-              <a href="">Sobre</a>
+              <a href="sobre">Sobre</a>
             </li>
             <li>
-              <a href="">Contatos</a>
+              <a href="contatos">Contatos</a>
             </li>
           </ul>
 

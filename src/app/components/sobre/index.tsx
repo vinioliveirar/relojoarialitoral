@@ -1,6 +1,6 @@
-import styles from "./section4.module.scss";
+import styles from "./sobre.module.scss";
 
-export default function Section4() {
+export default function Sobre() {
   return (
     <section id="sobre" className={styles.section}>
       <div className={styles.maxWidth}>

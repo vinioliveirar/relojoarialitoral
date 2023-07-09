@@ -1,6 +1,6 @@
-import styles from "./section3.module.scss";
+import styles from "./cotacao.module.scss";
 
-export default function Section3() {
+export default function Cotacao() {
   return (
     <section className={styles.section}>
       <div className={styles.imagebg}>
